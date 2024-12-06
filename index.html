@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>9</title>
+    <title>0</title>
     <!-- Здесь могут быть другие метатеги и стили -->
 
 
@@ -30,6 +30,81 @@
         }
     </style>
 </head>
+
+    <head>
+
+        <style>
+    /* Фиксация меню сверху */
+    .fixed-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        background-color: #fff;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-around;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        overflow-x: auto;
+    }
+
+    /* Стили для ссылок в меню */
+    .fixed-menu a {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        text-decoration: none;
+        color: #333;
+    }
+
+    .fixed-menu a:hover {
+        background-color: #ddd;
+    }
+
+    /* Плавная прокрутка */
+    html {
+        scroll-behavior: smooth;
+    }
+
+    /* Отступ для содержимого страницы, чтобы оно не перекрывало меню */
+    body {
+        padding-top: 50px; /* Высота меню */
+    }
+</style>
+
+<!-- Ваше закрепленное меню с ссылками -->
+<div class="fixed-menu">
+    <a href="#c-osnovnye-blyuda">Основные блюда</a>
+    <a href="#c-tova">Това</a>
+    <a href="#c-burger">Бургер</a>
+    <a href="#c-mangal">Мангал</a>
+    <a href="#c-pide">Пиде</a>
+    <a href="#c-picca">Пицца</a>
+    <a href="#c-xleb">Хлеб</a>
+    <a href="#c-garnir">Гарнир</a>
+    <a href="#c-deserty">Десерты</a>
+    <a href="#c-belgiiskie-vafli">Бельгийские вафли</a>
+    <a href="#c-bar">Бар</a>
+    <a href="#c-cai">Чай</a>
+    <a href="#c-tureckie-limonady">Турецкие лимонады</a>
+</div>
+
+<!-- Контент страницы, с которым будет работать плавная прокрутка -->
+<section id="c-osnovnye-blyuda">
+    <h2>Основные блюда</h2>
+    <!-- Ваш контент здесь -->
+</section>
+
+<section id="c-tova">
+    <h2>Това</h2>
+    <!-- Ваш контент здесь -->
+</section>
+
+<!-- Продолжение с другими разделами... -->
+
+    </head>
+        
 <body>
     <h1>Добро пожаловать в MUSTAFA!</h1>
     <!-- Ваш контент здесь --> 
