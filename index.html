@@ -3,47 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>04</title>
+    <title>05</title>
     <!-- Здесь могут быть другие метатеги и стили -->
 
-<style>
-    /* Фиксация кнопок сверху */
-    .fixed-buttons {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 1000;
-        background-color: #fff;
-        padding: 10px;
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        border: none; /* Убираем рамку */
-    }
 
-    /* Стили для кнопок */
-    button {
-        display: inline-block;
-        padding: 10px 20px;
-        font-size: 16px;
-        cursor: pointer;
-        border: none; /* Убираем рамку */
-        background-color: #f8f8f8;
-        color: #333;
-        border-radius: 5px; /* Округленные углы */
-    }
-
-    button:hover {
-        background-color: #ddd;
-    }
-
-    /* Плавная прокрутка */
-    html {
-        scroll-behavior: smooth;
-    }
-</style>
 
 </head>
 <body>
@@ -62,6 +25,50 @@
         }
     </script>
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<style>
+    /* Фиксация кнопок сверху */
+    .fixed-buttons {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        background-color: #fff;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border: none !important; /* Убираем рамку */
+    }
+
+    /* Убираем все возможные рамки на странице */
+    * {
+        border: none !important; /* Убираем все рамки */
+    }
+
+    /* Стили для кнопок */
+    button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none !important; /* Убираем рамку */
+        background-color: #f8f8f8;
+        color: #333;
+        border-radius: 5px; /* Округленные углы */
+    }
+
+    button:hover {
+        background-color: #ddd;
+    }
+
+    /* Плавная прокрутка */
+    html {
+        scroll-behavior: smooth;
+    }
+</style>
     
 </body>
 </html
