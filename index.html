@@ -18,12 +18,12 @@
     <style>
         /* Стили для закрепления и сдвига заголовка и элемента с переводом */
         h1 {
-            position: fixed;
+        
             top: 20px; /* Уровень от верхней части окна */
             left: 3cm; /* Сдвигаем на 3 см */
         }
         #google_translate_element {
-            position: fixed;
+            
             top: 80px; /* Уровень от верхней части окна */
             left: 3cm; /* Сдвигаем на 3 см */
         }
@@ -50,71 +50,7 @@
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>
--------
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MUSTAFA</title>
-    <style>
-        body {
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            height: 100vh; /* Задаем высоту на всю высоту окна браузера */
-        }
-        .header {
-            position: sticky; /* Прикрепляем верхнюю часть */
-            top: 0; /* Прикрепляем к верхней части окна */
-            left: 0;
-            background-color: white; /* Фон для верхней части */
-            padding: 10px; /* Отступы */
-            z-index: 1000; /* Чтобы он был выше других элементов */
-        }
-        .content {
-            flex: 1; /* Занять оставшееся пространство */
-            overflow-y: auto; /* Включаем прокрутку */
-            padding: 20px; /* Отступы для контента */
-        }
-    </style>
-</head>
-<body>
-    <div class="header">
-        <h1>Добро пожаловать в MUSTAFA!</h1>
-        <div id="google_translate_element"></div> <!-- Google Translate -->
-    </div>
-    <div class="content">
-        <!-- Ваш контент здесь -->
-        <p>Это пример контента. Прокручивайте страницу, чтобы увидеть, как нижняя часть ведет себя при прокрутке.</p>
-        <p>(Добавьте больше текста, чтобы сделать страницу длиннее и протестировать прокрутку.)</p>
-        <!-- Повторите параграфы для тестирования прокрутки -->
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius tellus, vel porta urna. Morbi id arcu euismod, cursus odio et, tempor libero.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius tellus, vel porta urna. Morbi id arcu euismod, cursus odio et, tempor libero.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius tellus, vel porta urna. Morbi id arcu euismod, cursus odio et, tempor libero.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius tellus, vel porta urna. Morbi id arcu euismod, cursus odio et, tempor libero.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius tellus, vel porta urna. Morbi id arcu euismod, cursus odio et, tempor libero.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius tellus, vel porta urna. Morbi id arcu euismod, cursus odio et, tempor libero.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius tellus, vel porta urna. Morbi id arcu euismod, cursus odio et, tempor libero.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius tellus, vel porta urna. Morbi id arcu euismod, cursus odio et, tempor libero.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius tellus, vel porta urna. Morbi id arcu euismod, cursus odio et, tempor libero.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec varius tellus, vel porta urna. Morbi id arcu euismod, cursus odio et, tempor libero.</p>
-    </div>
 
-    <script type="text/javascript">
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement({
-                pageLanguage: 'ru', // Язык вашей страницы
-                includedLanguages: 'tr,zh-CN,ko,ru,uz,en,fr,de', // Языки для выбора
-                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-            }, 'google_translate_element');
-        }
-    </script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-</body>
-</html>
----------
 
 <!DOCTYPE html><html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width"/>
     <style type="text/css">:root{ --cs-main: 255, 0, 0 !important;--cs-darker-main: 255, 115, 115 !important;--cs-lighten-main: 89, 0, 0
